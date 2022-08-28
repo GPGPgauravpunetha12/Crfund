@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:25px;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #2ecc71 60%, #27ae60 40.1%);
+}
+
+.container form{
+  padding:20px;
+  width:700px;
+  margin-top: 8rem;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+
+.container form .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}
+
+.container form .row .col{
+  flex:1 1 250px;
+}
+
+.container form .row .col .title{
+  font-size: 20px;
+  color:#333;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.container form .row .col .inputBox{
+  margin:15px 0;
+}
+
+.container form .row .col .inputBox span{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.container form .row .col .inputBox input{
+  width: 100%;
+  border:1px solid #ccc;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.container form .row .col .inputBox input:focus{
+  border:1px solid #000;
+}
+
+.container form .row .col .flex{
+  display: flex;
+  gap:15px;
+}
+
+.container form .row .col .flex .inputBox{
+  margin-top: 5px;
+}
+
+.container form .row .col .inputBox img{
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+
+.container form .submit-btn{
+  width: 100%;
+  padding:12px;
+  font-size: 17px;
+  background: #27ae60;
+  color:#fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.container form .submit-btn:hover{
+  background: #2ecc71;
+}
+header {
+  z-index: 1;  
+  width: 100%; 
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 30px 10%;
+    top:0;
+    position: fixed;
+     background-color: #24252a;
+   }
+   
+ 
+   
+ .logo {
+     font-size: 35px;
+     font-weight: bold;
+     text-transform: uppercase;
+     cursor: pointer;
+     text-decoration: none;
+     color: #edf0f1;
+   }
+   
+   #Srchbar {
+     float: right;
+     padding: 6px;
+     border: none;
+     margin-top: 0px;
+     margin-right: 16px;
+     font-size: 17px;
+    border-radius:12px;
+   }
+   
+   
+   #Srchbar  {
+       border: 1px solid #ccc;
+     }
+   
+   .nav__links a,
+   .cta,
+   .overlay__content a {
+     font-family: "Montserrat", sans-serif;
+     font-weight: 500;
+     color: #edf0f1;
+  
+     text-decoration: none;
+   }
+   
+   .nav__links {
+     list-style: none;
+     display: flex;
+   }
+   
+   .nav__links li {
+     padding: 0px 20px;
+   }
+   
+   .nav__links li a {
+     transition: color 0.3s ease 0s;
+   }
+   
+   .nav__links li a:hover {
+     color: #0088a9;
+   }
+   
+   .cta {
+     padding: 9px 25px;
+     background-color: rgba(0, 136, 169, 1);
+     border: none;
+     border-radius: 50px;
+     cursor: pointer;
+     transition: background-color 0.3s ease 0s;
+   }
+   
+   .cta:hover {
+     background-color: rgba(0, 136, 169, 0.8);
+   }
+   
+   /* Mobile Nav */
+   
+   .menu {
+     display: none;
+   }
+   
+   .overlay {
+     height: 100%;
+     width: 0;
+     position: fixed;
+     z-index: 1;
+     left: 0;
+     top: 0;
+     background-color: #24252a;
+     overflow-x: hidden;
+     transition: width 0.5s ease 0s;
+   }
+   
+   .overlay--active {
+     width: 100%;
+   }
+   
+   .overlay__content {
+     display: flex;
+     height: 100%;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+   }
+   
+   .overlay a {
+     padding: 15px;
+     font-size: 36px;
+     display: block;
+     transition: color 0.3s ease 0s;
+   }
+   
+   .overlay a:hover,
+   .overlay a:focus {
+     color: #0088a9;
+   }
+   .overlay .close {
+     position: absolute;
+     top: 20px;
+     right: 45px;
+     font-size: 60px;
+     color: #edf0f1;
+   }
+   
+   @media screen and (max-height: 450px) {
+     .overlay a {
+       font-size: 20px;
+     }
+     .overlay .close {
+       font-size: 40px;
+       top: 15px;
+       right: 35px;
+     }
+   }
+   
+   @media only screen and (max-width: 800px) {
+     .nav__links,
+     .cta {
+       display: none;
+     }
+     .menu {
+       display: initial;
+     }
+   }
+   
+ 

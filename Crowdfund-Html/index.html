@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Angel Chainfund
+    </title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpeg" size="32x32" href="assets\circlelogo1.jpeg " />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.15/tailwind.min.css">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/43e30d71cc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="topnav" class="navbar  ">
+        <a href="#" class="logo">
+      Angel
+      <span style="color: red">ChainFund</span>
+    </a>
+        <div class="navbar-right menu">
+            <a href="#" class="active" onclick="navbarFunc()">
+        Home
+      </a>
+      <a href="./Start/Start.html" onclick="navbarFunc()">
+        Start
+      </a>
+            <a href="./Explore/explore.html" onclick="navbarFunc()">
+        Explore
+      </a>
+            <a href="#" onclick="navbarFunc()">
+        How it works
+      </a>
+            <a href="#" onclick="navbarFunc()">
+        Fight Covid
+      </a>
+            <a href="#" onclick="navbarFunc()">
+        Contact
+      </a>
+            <a><label class="btn btn-gradient"for="modal-toggle"onclick="navbarFunc()">Login/Signup</label>
+            
+             <!-- <button id="btn-login">Moralis Metamask Login</button>
+             <button id="btn-logout">Logout</button> -->
+      </a>
+        </div>
+        <div class="navbar-right">
+            <a href="javascript:void(0);" class="icon" onclick="showMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+
+ <section>
+        <div class="rt-container">
+            <div class="col-rt-12">
+                <div class="Scriptcontent">
+
+
+                    <input id="modal-toggle" type="checkbox">
+                    <label class="modal-backdrop" for="modal-toggle"></label>
+                    <div class="modal-content">
+                        <label class="modal-close-btn" for="modal-toggle">
+        <svg width="30" height="30">
+          <line x1="5" y1="5" x2="20" y2="20"/>
+          <line x1="20" y1="5" x2="5" y2="20"/>
+        </svg>
+      </label>
+                        <div class="tabs">
+                          
+                             <input class="radio" id="tab-1" name="tabs-name" type="radio" checked>
+                             <label for="tab-1" class="table"><span>Login</span></label>
+                             <div class="tabs-content">
+                                 <div class="login_socnet">
+                                     <a href="" class="fa fa-vk" aria-hidden="true"></a>
+                                     <a href="" class="fa fa-google-plus" aria-hidden="true"></a>
+                                     <a href="" class="fa fa-facebook" aria-hidden="true"></a>
+                                 </div>
+                                 <form action="">
+                                     <input type="email" placeholder="Email" required>
+                                     <input type="password" placeholder="Password" required>
+                                     <input type="submit" value="Log In">
+                                 </form>
+                                 <form class="forgot-password" action="">
+                                     <input id="forgot-password-toggle" type="checkbox">
+                                     <label for="forgot-password-toggle">forgot password?</label>
+                                     <div class="forgot-password-content">
+                                         <input type="email" placeholder="enter your email" required>
+                                         <input type="submit" value="go">
+                                     </div>
+                                 </form>
+                             </div>
+                             <!--  SIGN UP  -->
+                             <input class="radio" id="tab-2" name="tabs-name" type="radio">
+                             <label for="tab-2" class="table"><span>Sign up</span></label>
+                             <div class="tabs-content">
+                                 <div class="login_socnet">
+                                     <a href="" class="fa fa-vk" aria-hidden="true"></a>
+                                     <a href="" class="fa fa-google-plus" aria-hidden="true"></a>
+                                     <a href="" class="fa fa-facebook" aria-hidden="true"></a>
+                                 </div>
+                                 <form action="">
+                                     <input type="email" placeholder="Email" required>
+                                     <input type="password" placeholder="Password" required>
+                                     <input type="password" placeholder="Confirm password" required>
+                                     <input type="submit" value="Sign Up">
+                                 </form>
+                             </div>
+                         </div>
+                     </div>
+                     <!-- partial -->
+ 
+ 
+ 
+                 </div>
+             </div>
+         </div>
+     </section>
+   <!-- add here missing  -->
+    <script src='https://use.fontawesome.com/7fcc5972f1.js'></script>
+   
+
+    <div id="slideshow-container" class="slideshow-container">
+
+        <div class="slide-item bgimg fade" style="background-image: url('assets/covid_2.jpg');">
+            <div class="caption">
+                <h2 class="animate__animated animate__backInDown">
+                    Fight covid
+                </h2>
+                <p class="animate__animated animate__fadeInUp">
+                    Fight covid-19 The world is facing an unprecedented challenge with communities and economies everywhere affected by the growing COVID-19 pandemic. The world is coming together to combat the COVID-19 pandemic bringing governments, organizations from across
+                    industries and sectors and individuals together to help respond to this global outbreak. Everyone can now support directly on this platform with blockchain security by contributing some amounts to the one who are suffering from covid-19
+                    pandemic.
+                </p>
+                <button class=" animate__animated animate__backInUp">
+          Get Started
+        </button>
+            </div>
+        </div>
+
+        <div class="slide-item bgimg fade" style="background-image: url('assets/letshelp.jpg');">
+            <div class="caption">
+                <h2 class="animate__animated animate__backInDown">
+                    Time to help
+                </h2>
+                <p class="animate__animated animate__fadeInUp">
+                    There are people who have much more than they need to live while others have barely enough to survive. Poor people do not have enough clothing, food, education and healthcare. Being poor means deprived economically, politically and socially. They hardly
+                    get opportunities. They have inadequate nutrition, higher risk of diseases and lack access to healthcare and basic essentials for living resulting in low achievement.
+                </p>
+                <button class=" animate__animated animate__backInUp">
+          Read more
+        </button>
+            </div>
+        </div>
+
+
+        <div class="slide-item bgimg fade" style="background-image: url('assets/nature.jpg');">
+            <div class="caption">
+                <h2 class="animate__animated animate__backInDown">
+                    Save Nature Save life
+                </h2>
+                <p class="animate__animated animate__fadeInUp">
+                    In a reckless drive towards human centred development and industrialisation. Loss of habitat has endangered a number of animal species, and cutting of forests has left us losing many plant varieties. Nature maintains a fine balance. A seemingly useless
+                    insect like a bee causes the plant life to grow. If it were to be eliminated, there would be no pollination and many plant species would die. Saving any species in nature saves life. </p>
+                <button class=" animate__animated animate__backInUp">
+          Get Started
+        </button>
+            </div>
+        </div>
+
+
+        <div class="slide-item bgimg fade" style="background-image: url('assets/block_3.jpg');">
+            <div class="caption">
+                <h2 class="animate__animated animate__backInDown">
+                    Blockchain Crowdfunding
+                </h2>
+                <p class="animate__animated animate__fadeInUp">
+                    Blockchain or Bitcoin Crowdfunding Could Be Disruptive Because blockchain makes the funding process safe and offers completely transparent access from anywhere in the world, crowdfunding platforms that use blockchain can help to maximize the success of
+                    a project.</p>
+                <button class="animate__animated animate__backInUp">
+          Get Started
+        </button>
+            </div>
+        </div>
+        <div id="slide-control" class="slide-control">
+            <span class="dot" onclick="chooseSlide(0)"></span>
+            <span class="dot" onclick="chooseSlide(1)"></span>
+            <span class="dot" onclick="chooseSlide(2)"></span>
+            <span class="dot" onclick="chooseSlide(3)"></span>
+        </div>
+    </div>
+    <!-- pr start -->
+   
+<!-- pr -->
+    <div class="client-area">
+        <div class="container_Services">
+            <h2>Our Services</h2>
+            <div class="logo-area-sliderss">
+                <a class="slide"><img class="img-icon" src="assets\covid_1.jpg" style="border-radius:60%;width: 170px;height: 190px;">
+                    <h3>Covid-19</h3>
+                </a>
+                <a class="slide"><img class="img-icon" src="assets\nature_2icon.svg" style="border-radius:60%;width: 170px;height: 190px;">
+                    <h3>Save Tree</h3>
+                </a>
+                <a class="slide"><img class="img-icon" src="assets\animal.jpg" style="border-radius:60%;width: 170px;height: 190px;">
+                    <h3>save-animal</h3>
+                </a>
+                <a class="slide"><img class="img-icon" src="assets\nature_5.jpg" style="border-radius:60%;width: 170px;height: 190px;">
+                    <h3>save-nature</h3>
+                </a>
+                <a class="slide"><img class="img-icon" src="assets\medical_1.svg" style="border-radius:60%;width: 170px;height: 190px;">
+                    <h3>stay safe</h3>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    <!-- stats  -->
+
+    <section class="counters">
+        <div class="container">
+            <div>
+                <i class="fab fa-youtube fa-4x"></i>
+                <div class="counter" data-target="60000">0</div>
+                <h3>Subscribers</h3>
+            </div>
+            <div>
+                <i class="fab fa-twitter fa-4x"></i>
+                <div class="counter" data-target="15000">0</div>
+                <h3>Followers</h3>
+            </div>
+            <div>
+                <i class="fab fa-facebook fa-4x"></i>
+                <div class="counter" data-target="9000">0</div>
+                <h3>Likes</h3>
+            </div>
+            <div>
+                <i class="fab fa-linkedin fa-4x"></i>
+                <div class="counter" data-target="5000">0</div>
+                <h3>Connections</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Zig Zag -->
+    <section>
+
+        <div style="text-align:center">
+            <h2 style="font-size: 6rem;"> About Us</h2>
+            <h1 style="font-size: 4rem;"> Our Mission | Vision & Plans
+            </h1>
+        </div>
+
+        <div class="Zigzag">
+            <div class="row__zag">
+                <div class="zag_column-66">
+
+                    <h1 class="xlarge-font"><b>What is crowdFunding blockchain</b></h1>
+                    <h1 class="large-font" style="color:MediumSeaGreen;"><b>Why crowdfunding blockchain ?</b></h1>
+                    <p><span style="font-size:36px"> Given these drawbacks of current crowdfunding platforms,</span> integrating blockchain technology proves a practical business-transforming decision. Blockchain-based crowdfunding platforms can become a
+                        more acceptable means of funding a wide range of initiatives and causes. For instance, with blockchain smart contracts solutions, it becomes automatic to release funds only when milestones validate that there will be intended use
+                        of funds in the future. Fundamentally, blockchain solutions for crowdfunding can offer stakeholders vital oversights into individual campaigns while lowering the amount of trust required to make investments. Furthermore, end-to-end
+                        traceability, transparency, and efficiency provided by blockchain augment a crowdfunding platform in various ways. Let’s take a look.</p>
+                    <button class="button">Readmore</button>
+
+                </div>
+                <div class="zag_column-33">
+
+                    <img src="assets\block_1_zigzag.png" width="800" height="771">
+                </div>
+            </div>
+        </div>
+
+        <div class="Zigzag" style="background-color:#f1f1f1">
+            <div class="row__zag">
+                <div class="zag_column-33">
+                    <img src="assets\block_2.jpg" width="635" height="571">
+                </div>
+                <div class="zag_column-66">
+                    <h1 class="xlarge-font"><b>Our Mission</b></h1>
+                    <h1 class="large-font" style="color:red;"><b>Pay-it-forward model?</b></h1>
+                    <p><span style="font-size:24px"> Crowdfunding has revolutionized </span> the way of raising funds for not only start-ups but for all traditional or existing businesses. Crowdfunding made it easy for fundraisers to raise funds as they
+                        don’t have to knock on doors of banks and financers and get the desired amount in return of interest or offering equity or even through donation, or reward. Blockchain, on the hand, is decentralizing the system of records and control
+                        which makes crowdfunding more transparent and secure. Though a number of blockchain-based crowdfunding platforms are already doing good business and they vary in crypto, model and type of crowdfunding. The study is conducted on
+                        a very new blockchain-based crowdfunding platform, WHIRL. The unique and different in this model is the model, “pay-it-forward” itself. The model assures that members will get their legit project funded after they help other projects
+                        succeed. The study also highlights some thoughts from the Executive Board of Directors and co-founders after doing a brief discussion with them.</p>
+                    <button class="button" style="background-color:red">Read More..</button>
+
+
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="Zigzag">
+            <div class="row__zag">
+                <div class="zag_column-66">
+
+                    <h1 class="xlarge-font"><b>Our Visions</b></h1>
+                    <h1 class="large-font" style="color:MediumSeaGreen;"><b>To help  more and more</b></h1>
+                    <p><span style="font-size:36px"> To help more and more by,</span> integrating blockchain technology proves a practical business-transforming decision. Blockchain-based crowdfunding platforms can become a more acceptable means of funding
+                        a wide range of initiatives and causes. For instance, with blockchain smart contracts solutions, it becomes automatic to release funds only when milestones validate that there will be intended use of funds in the future. Fundamentally,
+                        blockchain solutions for crowdfunding can offer stakeholders vital oversights into individual campaigns while lowering the amount of trust required to make investments. Furthermore, end-to-end traceability, transparency, and efficiency
+                        provided by blockchain augment a crowdfunding platform in various ways. Let’s take a look.</p>
+                    <button class="button">Readmore</button>
+
+                </div>
+                <div class="zag_column-33">
+
+                    <img src="assets\vision.jpg" width="800" height="771">
+                </div>
+            </div>
+        </div>
+        <div class="Zigzag" style="background-color:#f1f1f1">
+            <div class="row__zag">
+                <div class="zag_column-33">
+                    <img src="assets\plans.jpg" width="635" height="571">
+                </div>
+                <div class="zag_column-66">
+                    <h1 class="xlarge-font"><b>Our Plans</b></h1>
+                    <h1 class="large-font" style="color:red;"><b></b></h1>
+                    <p><span style="font-size:24px"> The CrowdFundingPlanning </span> team works with early stage companies to launch new products and services. Crowd and Relationship Funding presents an exceptional and accelerated opportunity to validate
+                        your business concept, build your networks, raise funds and go to market quickly! We provide knowledge, resources systems and build networks to assist you through all stages of your crowd funding project or campaign from education
+                        to campaign management. We leverage the power of Google technology to develop and promote your CrowdFunding project and business.</p>
+                    <button class="button" style="background-color:red">Read More..</button>
+
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Team  -->
+    <div class="container_team">
+        <div class="containerr">
+            <h2 class="team">Our Team</h2>
+            <div class="card">
+
+                <div class="content">
+
+                    <div class="imgBx">
+                        <img src=".assets/team1.jpg" alt="">
+                    </div>
+                    <div class="contentBx">
+                        <h4>Gaurav Punetha</h4>
+                        <h5>Director General</h5>
+                    </div>
+                    <div class="sci">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="./team2.jpg" alt="">
+                    </div>
+                    <div class="contentBx">
+                        <h4>Kunal kalyani</h4>
+                        <h5>Manager</h5>
+                    </div>
+                    <div class="sci">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="assets\Ashmit.jpeg" alt="">
+                    </div>
+                    <div class="contentBx">
+                        <h4>Ashmit </h4>
+                        <h5>Developer</h5>
+                    </div>
+                    <div class="sci">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="./team3.jpg" alt="">
+                    </div>
+                    <div class="contentBx">
+                        <h4>Karan</h4>
+                        <h5>Developer</h5>
+                    </div>
+                    <div class="sci">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <footer>
+        <div class="content">
+          <div class="top">
+            <div class="logo-details">
+              <i class="fab fa-slack"></i>
+              <span class="logo_name">Angel chainfund</span>
+            </div>
+            <div class="media-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="link-boxes">
+            <ul class="box">
+              <li class="link_name">Company</li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Get started</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Services</li>
+              <li><a href="#">get funds</a></li>
+              <li><a href="#">soft funds</a></li>
+              <li><a href="#">24hrs</a></li>
+              <li><a href="#">call support</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Account</li>
+              <li><a href="#">Profile</a></li>
+              <li><a href="#">My account</a></li>
+              <li><a href="#">Prefrences</a></li>
+              <li><a href="#">Purchase</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">About us</li>
+              <li><a href="#">Lorem, ipsum.</a></li>
+              <li><a href="#">Lorem, ipsum dolor.</a></li>
+              <li><a href="#">Lorem ipsum dolor sit.</a></li>
+              <li><a href="#">Lorem, ipsum.</a></li>
+            </ul>
+            <ul class="box input-box">
+              <li class="link_name">Subscribe</li>
+              <li><input type="text" placeholder="Enter your email"></li>
+              <li><input type="button" value="Subscribe"></li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottom-details">
+          <div class="bottom_text">
+            <span class="copyright_text">Copyright © 2022 <a href="#">Angel chainfund.</a>All rights reserved</span>
+            <span class="policy_terms">
+              <a href="#">Privacy policy</a>
+              <a href="#">Terms & condition</a>
+            </span>
+          </div>
+        </div>
+      </footer>
+
+    <script src="index.js">
+    </script>
+<!-- <script src="https://unpkg.com/moralis/dist/moralis.js"></script> -->
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+</body>
+
+</html>
